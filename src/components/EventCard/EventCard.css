@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&display=swap');
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
   .eventCard {
     height: 500px;
     width: 350px;
@@ -48,8 +48,20 @@
     font-family: 'Big Shoulders Text', cursive;
   }
 
+  .eventCard-content-detail :nth-child(2) {
+    height: 56px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  } 
+
+  .bookmark {
+    cursor: pointer;
+  }
+
   .eventCard-content-detail > p {
-    font-size: larger;
+    font-size: medium;
   }
 
   .eventCard-content-footer {
@@ -73,5 +85,16 @@
   .eventCard-content-footer img {
     height: 40px;
     width: 40px;
+  }
+
+  .eventCard-content-button button {
+    border: none;
+    height: 30px;
+    background-color: #FFFFFF;
+    color: #C490D1;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
   }
 }
