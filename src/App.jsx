@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Header } from './components';
+import { Header, EventCard } from './components';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <EventCard />
     </div>
   );
 }

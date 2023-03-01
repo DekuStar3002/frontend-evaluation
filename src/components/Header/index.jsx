@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <div className="header">
-      <p className="header-title">Eventify</p>
+      <p className="header-title">EVENRIFY</p>
     </div>
   );
 }

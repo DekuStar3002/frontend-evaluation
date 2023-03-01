@@ -20,6 +20,7 @@
     ],
     "rules": {
         "no-multiple-empty-lines": ["error", { "max": 1, "maxBOF":1, "maxEOF": 1 }],
-        "comma-dangle": ["error", "never"]
+        "comma-dangle": ["error", "never"],
+        "react/self-closing-comp": "off"
     }
 }

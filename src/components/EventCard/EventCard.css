@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&display=swap');
+
+@media only screen and (min-width: 992px) {
+  .eventCard {
+    height: 500px;
+    width: 350px;
+    border-radius: 10px;
+  }
+
+  .eventCard-image {
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .eventCard-image > img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .eventCard-content {
+    width: 100%;
+    height: 60%;
+    background-color: #C490D1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 0 0 10px 10px;
+    color: #FFFFFF;
+  }
+
+  .eventCard-content-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 60%;
+    margin: 0 20px;
+    font-family: 'Sofia Sans', sans-serif;
+  }
+
+  .eventCard-content-detail :first-child {
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Text', cursive;
+  }
+
+  .eventCard-content-detail > p {
+    font-size: larger;
+  }
+
+  .eventCard-content-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'Sofia Sans', sans-serif;
+  }
+
+  .eventCard-content-footer > :first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .eventCard-content-footer > div :first-child {
+    margin: 0 10px;
+  }
+
+  .eventCard-content-footer img {
+    height: 40px;
+    width: 40px;
+  }
+}
