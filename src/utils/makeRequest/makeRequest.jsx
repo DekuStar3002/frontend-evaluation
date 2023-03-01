@@ -2,6 +2,7 @@ import axios from 'axios';
 
 const makeRequest = async (configObj, navigate, dynamicConfig = {}) => {
   try {
+    console.log(dynamicConfig);
     const requestConfigObj = { ...configObj, ...dynamicConfig };
     const { data } = await axios(requestConfigObj);
     return data;
