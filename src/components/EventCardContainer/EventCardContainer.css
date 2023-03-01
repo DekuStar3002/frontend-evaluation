@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&display=swap');
+
+@media only screen and (min-width: 992px) {
+  .eventCardContainer {
+    height: 100%;
+    margin: 0 500px;
+
+    font-family: 'Sofia Sans', sans-serif;
+  }
+
+  .eventCardContainer-filter {
+    margin: 30px 0;
+  }
+  
+  .eventCardContainer-filter-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+
+  .eventCardContainer-filter-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+
+  .eventCardContainer-filter-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .eventCardContainer-filter-search > input {
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  .image {
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+  }
+
+  .eventCardContainer-filter-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .eventCardContainer-filter-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .eventCardContainer-filter-option div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .eventCardContainer-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
