@@ -32,6 +32,6 @@ const UPDATE_THEMES = (data) => ({
   data
 });
 
-export default {
+export {
   GET_ALL_EVENTS, GET_EVENT_BY_ID, UPDATE_EVENT_BY_ID, GET_THEMES, UPDATE_THEMES
 };
